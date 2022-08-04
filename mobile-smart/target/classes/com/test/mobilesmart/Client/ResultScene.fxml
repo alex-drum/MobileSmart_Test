@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="barcodeErrorScene" prefHeight="182.0" prefWidth="181.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.mobilesmart.Client.ResultSceneController">
+    <children>
+        <Text layoutX="8.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Данные отправлены на сервер" textAlignment="CENTER" wrappingWidth="165.21630859375">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Text>
+        <Button fx:id="resultButton" onAction="#onResultButton" layoutX="28.0" layoutY="98.0" prefHeight="26.0" prefWidth="126.0" text="Ок" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="browseScene" prefHeight="400.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.mobilesmart.Client.BrowseSceneController">
+   <children>
+      <TableView fx:id="productTable" layoutX="5.0" layoutY="6.0" prefHeight="388.0" prefWidth="329.0">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="245.0" text="Наименование товара, описание товара" />
+          <TableColumn fx:id="qtyColumn" minWidth="9.0" prefWidth="83.0" text="Кол-во, шт." />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
